@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export default function Header() {
   return (
-    <div className='fext align-center justify-center text-center bg-customGreen h-18 fixed w-full z-50'>
+    <div className='justify-center text-center bg-customGreen h-18 fixed w-full z-50 '>
         <div className='flex  justify-center'>
         <Image src="/ppr.png" width={70}
         height={60} className='pt-2'/>
