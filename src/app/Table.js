@@ -14,16 +14,16 @@ export default function Table() {
         </p>
         <img
           src="https://assets.tidycal.com/img/homepage/b-01/illustra-sticker-red.webp"
-          className="absolute top-[570%] right-64 w-48"
+          className="hidden md:absolute top-[570%] right-64 w-48"
         />
         <img
           src="https://assets.tidycal.com/img/homepage/b-01/illustra-sticker-green.webp"
-          className="absolute top-[580%] right-[38%] mr-6 w-48"
+          className="hidden md:absolute top-[580%] right-[38%] mr-6 w-48"
         />
         <div className="flex justify-center">
 
 
-        <table className="w-full mx-52 ">
+        <table className="w-full md:mx-52 ">
       <thead>
         <tr className="h-20 bg-background border-white border-8 ">
           <td> </td>
@@ -117,14 +117,14 @@ export default function Table() {
       <div className="flex justify-center bg-white ">
         <img src="arrow.svg" />
       </div>
-      <div className="flex justify-center bg-white">
-        <div className="h-16 w-[20%]  bg-customRed hover:text-red-800 hover:bg-red-100 outline-none rounded-full mt-4 shadow-md border-4 border-white text-white">
+      <div className="block md:flex justify-center bg-white">
+        <div className="h-16 md:w-[20%]  bg-customRed hover:text-red-800 hover:bg-red-100 outline-none rounded-full mt-4 shadow-md border-4 border-white text-white">
           <p className="pt-3 text-xl text-center hover:cursor-pointer">
             Get extra features
           </p>
         </div>
         <p className="text-black m-5 p-4 text-xl">Or:</p>
-        <div className="h-16 w-[20%] hover:text-blue-800 hover:bg-blue-200 outline-none rounded-full mt-4 shadow-md border-4 border-white">
+        <div className="h-16 md:w-[20%] hover:text-blue-800 hover:bg-blue-200 outline-none rounded-full mt-4 shadow-md border-4 border-white">
           <p className="pt-3 text-xl text-center hover:cursor-pointer">
             Create free account
           </p>

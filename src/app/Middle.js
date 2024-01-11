@@ -3,8 +3,8 @@ import Login from "./Login";
 
 export default function Middle() {
   return (
-    <div className="mt-20">
-      <h1 className="text-6xl font-extralight text-blue-600 text-center mx-48">
+    <div className="ml-5 mt-20 mx-4 md:mx-0">
+      <h1 className="text-4xl mx:16 text-left md:text-6xl font-extralight text-blue-600 md:text-center md:mx-48">
         The simplest way to book and schedule meetings
       </h1>
 
@@ -27,7 +27,7 @@ export default function Middle() {
           zIndex: 0,
         }}
       ></iframe>
-      <div className="flex space-x-4">
+      <div className="hidden md:flex space-x-4">
         <div className="w-[45%] h-[95%] bg-blue-600 rounded-full absolute top-[90%] -left-20 -z-10"></div>
         <div className="w-[30%] h-[60%] bg-blue-600 rounded-full absolute top-[95%] -right-20 -z-10"></div>
         <div className="w-[45%] h-[95%] bg-blue-600 rounded-full absolute top-[160%] -right-40 -z-10"></div>
@@ -37,7 +37,7 @@ export default function Middle() {
         People love using TidyCal
       </h2>
 
-      <div className="flex gap-10 text-left mt-24">
+      <div className="block ml-20 md:ml-0 md:flex gap-10 text-left mt-24">
         <div className="w-80 mb-20 bg-white rounded-2xl p-12">
           <h3 className="font-bold text-md">
             Simple to use, but powerful tool
@@ -111,7 +111,7 @@ export default function Middle() {
           </div>
         </div>
       </div>
-      <div className="flex gap-10 justify-center">
+      <div className="block mx-28 md:mx-0 md:flex gap-10 justify-center">
         <div className="h-48 w-60 text-center">
           <img src="/rev2.webp" width={160} height={100} className="mx-10" />
           <p>Rated: 4.7 - Excelent</p>
