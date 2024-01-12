@@ -14,11 +14,11 @@ export default function Table() {
         </p>
         <img
           src="https://assets.tidycal.com/img/homepage/b-01/illustra-sticker-red.webp"
-          className="hidden md:absolute top-[570%] right-64 w-48"
+          className="w-0 md:absolute top-[570%] right-64 md:w-48"
         />
         <img
           src="https://assets.tidycal.com/img/homepage/b-01/illustra-sticker-green.webp"
-          className="hidden md:absolute top-[580%] right-[38%] mr-6 w-48"
+          className="md:absolute  top-[580%] right-[38%] mr-6 w-0 md:w-48"
         />
         <div className="flex justify-center">
 
@@ -124,7 +124,7 @@ export default function Table() {
           </p>
         </div>
         <p className="text-black m-5 p-4 text-xl">Or:</p>
-        <div className="h-16 md:w-[20%] hover:text-blue-800 hover:bg-blue-200 outline-none rounded-full mt-4 shadow-md border-4 border-white">
+        <div className="h-16 md:w-[20%] hover:text-blue-800 hover:bg-blue-200 outline-none rounded-full mt-4 shadow-md border-4 border-black md:border-white">
           <p className="pt-3 text-xl text-center hover:cursor-pointer">
             Create free account
           </p>

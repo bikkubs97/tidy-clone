@@ -10,7 +10,7 @@ export default function Middle() {
 
       <Login/>
 
-      <img src="/topbar.png" className="mt-32"/>
+      <img src="/topbar.PNG" className="mt-32"/>
       <iframe
         src="https://tidycal.com/sumodavid/15-minute-meeting?embed&amp;showAvatar=true"
         id="tidycal-embed-xnzd9"
@@ -37,8 +37,8 @@ export default function Middle() {
         People love using TidyCal
       </h2>
 
-      <div className="block ml-20 md:ml-0 md:flex gap-10 text-left mt-24">
-        <div className="w-80 mb-20 bg-white rounded-2xl p-12">
+      <div className="block mx-5  md:mx-0 md:flex gap-10 text-left mt-24">
+        <div className="md:w-80 mb-20 bg-white rounded-2xl p-12">
           <h3 className="font-bold text-md">
             Simple to use, but powerful tool
           </h3>
@@ -59,7 +59,7 @@ export default function Middle() {
           <p>"AppSumo Review"</p>
         </div>
 
-        <div className="w-80 mb-20  bg-white rounded-2xl p-12">
+        <div className="md:w-80 mb-20  bg-white rounded-2xl p-12">
           <h3 className="font-bold text-md">
             This is the best calendar I've tried…
           </h3>
@@ -73,7 +73,7 @@ export default function Middle() {
           <strong>info000</strong>
           <p>Trustpilot Review</p>
         </div>
-        <div className="w-80 bg-white rounded-2xl p-12 relative -top-10">
+        <div className="md:w-80 bg-white rounded-2xl p-12 relative -top-10">
           <h3 className="font-bold text-md">
             This is the best calendar I've tried…
           </h3>
@@ -91,8 +91,8 @@ export default function Middle() {
         </div>
       </div>
       <Login />
-      <div className="flex justify-center mt-5 mb-20">
-        <div className="flex h-10 justify-around w-80">
+      <div className="flex md:justify-center mt-5 mb-20">
+        <div className="flex h-10 justify-around md:w-80">
           <div className="flex">
             <img
               src="https://assets.tidycal.com/img/icon-forbidden-sm.svg/"
